@@ -1,0 +1,42 @@
+claims:
+  - id: T4
+    title: Exact real-linear completion theorem
+    status: AUDITED-IN-CAMPAIGN
+    scope: normalized C2 completion
+    source: archive/FULL_DOSSIER.md
+    consequence: "For complete valid N, L_N is empty or a singleton integral perfect matching."
+
+  - id: TC
+    title: Coupled exact Q,N formulation
+    status: PROVED-HERE
+    scope: normalized C2
+    source: theorems/THEOREM_C.md
+    consequence: "Integral completion pairs are equivalent to integer solutions of C1-C5."
+
+  - id: TRI-2.1
+    title: Bounded residue window
+    status: PROVED-HERE
+    scope: signed layer
+    source: archive/TERNARY_PROOF.md
+    consequence: "mod-3 signed equations plus T/E capacities imply the integer signed equations."
+
+  - id: RESPONSE-CARD
+    title: Response-card quotient is non-compressive
+    status: PROVED-HERE
+    scope: native four-state model
+    source: theorems/RESPONSE_CARD_CLOSURE.md
+    consequence: "Concrete C2 response-card classes retain label identity."
+
+  - id: ROUTE-C
+    title: Finite 156-envelope computational route
+    status: REPORTED
+    scope: normalized C2 negative backstop
+    source: compute/ROUTE_C.md
+    consequence: "Campaign reports 91/156 excluded; canonical tracker sync required."
+
+  - id: C2
+    title: Existence of a Conway graph with an involution
+    status: OPEN
+    scope: main target
+    source: README.md
+    consequence: "One Q,N witness proves EX; universal contradiction proves normalized NOT-EX."
